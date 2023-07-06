@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-container{
+    background-color: rgb(36, 35, 35);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.logo-photo{
+    width: 120px;
+}
+.menus{
+    list-style: none;
+    color: aquamarine;
+    display: flex;
+}
