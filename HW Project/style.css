@@ -53,3 +53,53 @@
     border: none;
     border-radius: 3px;
 }
+.about-img{
+    width: 300px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.about-h{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.box{
+    width: 250px;
+    height: 320px;
+    box-shadow: 4px 4px 50px grey;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+    background-color: grey;
+    margin-top: 10px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-des{
+    padding: 10px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 15px;
+}
+.service-main{
+    color: white;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(0, 0, 0),rgb(39, 39, 39));
+}
